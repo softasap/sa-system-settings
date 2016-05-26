@@ -1,0 +1,4 @@
+---
+# tasks file for sa-system-settings
+  - include: __sysctl_settings.yml
+    when: sysctl_conf_lines is defined
